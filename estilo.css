@@ -1,0 +1,36 @@
+.container {
+    background-color: aqua;
+    width: 100%;
+    height: 610px;
+}
+
+.info {
+    text-align: center;
+
+    background-color: blue;
+}
+p {
+    text-align: center;
+    background-color: blueviolet;
+}
+.enviar {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.bot {
+    border-radius: 30px;
+    width: 280px;
+    height: 35px;
+    margin: 8px;
+    
+}
+
+.texto {
+    border-radius: 30px;
+    width: 280px;
+    height: 35px;
+    
+}
