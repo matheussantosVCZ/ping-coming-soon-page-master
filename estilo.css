@@ -1,45 +1,51 @@
+body {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 86px;
+     height:26px;
+}
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 375px;
-    height: 610px;
+    display: block;
+    height: 700px;
     background-color: aqua;
 }
 
 .info {
-    text-align: center;
+    display: block;
 }
 
-p, h2{ 
-    font-family: 'Libre Franklin', sans-serif;
-    text-align: center;
-}
-
-.enviar {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.bot {
-    border: 3px solid hsl(223, 87%, 63%) ;
-    border-style: outset;
-    border-radius: 30px;
-    width: 280px;
-    height: 35px;
-    margin: 8px;
-    background-color: hsl(223, 87%, 63%);
+.paragr {
+    display: block;
 }
 
 .texto {
-    border-radius: 30px;
-    width: 280px;
-    height: 35px;
+    border: none; /* Deixar sem Bordas*/
+    display: inline-block;
+    padding: 10px; /*Aumenta o espaçamento de dentro para fora do campo de digitação*/
+    width: 273px;
+    margin-top: 25px; /* Espaçamento entre subscribe e o campo para digitar*/
+    border-radius: 25px;
 }
 
-.dash {
-    width: 325px;
+.button {
+    border: none;
+    width: 300px;
+    display:block;
+    padding: 10px; /*Aumenta o espaçamento de dentro para fora do botão*/
+    margin-left: 60px; /*Espaçamento saindo da margem a esqueda ate chegar ao meio*/
+    background-color:hsl(223, 87%, 63%);
+    margin-top: 8px; /* Espaçamento entre o campo preencher e o botão notify*/
+    border-radius: 25px; /* Arredondamento das bordas*/
+    
 }
 
+.copy {
+    display: block;
+    
+    color:cornsilk
+}
